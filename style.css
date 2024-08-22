@@ -1,15 +1,18 @@
-body {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-}
-
-
 .topImg {
 height: 33vh;
-object-fit: contain;
 }
 
 .topSec {
     height: 33vh;
+}
+
+.topImg img {
+    object-fit:contain;
+}
+
+.menuBtn {
+    height: 80px;
+    width: 80px;
+    float: right;
+    border-radius: 50%;
 }
